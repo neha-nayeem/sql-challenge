@@ -128,10 +128,11 @@ For the bonus section, we had to import our SQL database into Pandas using SQLAl
 
 * Unnecessary columns were removed and a group by object was created on the title, with mean salaries.
 
+<img src="/EmployeeSQL/images/avg_sal_df.png" alt="avg_sal_df"
+	title="Average Salary by Title" width="500" height="700" />
+
 * This dataframe was then used to plot a bar chart to show average salaries by title.
 
-<img src="/EmployeeSQL/images/avg_sal_df.png" alt="avg_sal_df"
-	title="Average Salary by Title" width="150" height="100" />
 ![avg-sal-title.png](/EmployeeSQL/images/avg_sal_title.png)
 
 
