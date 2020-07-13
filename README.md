@@ -112,9 +112,9 @@ ORDER BY "Frequency Count" DESC
 
 For the bonus section, we had to import our SQL database into Pandas using SQLAlchemy and generate visualizations of the data.
 
-* The script is called `bonus_analysis.ipynb` and was coded using Jupyter notebook. The libraries used were Pandas, Matplotlib, os, sqlalchemy, NumPy and SciPy.
-* The database url was created in an environment variable ot protect the database password.
-* Only the relevant tables were read into Pandas dataframes using  `read_sql_table()` - salary, employees, and titles, after which these dataframes were used to plot data.
+* The script is called `bonus-analysis.ipynb` and was coded using Pandas, Matplotlib, os, sqlalchemy, NumPy and SciPy libraries.
+* The database url was created in an environment variable to protect the database password.
+* Only three relevant tables were read into Pandas dataframes using  `read_sql_table()`: salary, employees, and titles, after which these dataframes were used to plot data.
 
 #### Create a histogram to visualize the most common salary ranges for employees
 
@@ -128,7 +128,10 @@ For the bonus section, we had to import our SQL database into Pandas using SQLAl
 
 * Unnecessary columns were removed and a group by object was created on the title, with mean salaries.
 
-![avg-sal-df.png](/EmployeeSQL/images/avg_sal_df.png)
+* This dataframe was then used to plot a bar chart to show average salaries by title.
+
+<img src="/EmployeeSQL/images/avg_sal_df.png" alt="avg_sal_df"
+	title="Average Salary by Title" width="150" height="100" />
 ![avg-sal-title.png](/EmployeeSQL/images/avg_sal_title.png)
 
 
