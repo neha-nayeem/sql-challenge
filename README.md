@@ -112,7 +112,7 @@ ORDER BY "Frequency Count" DESC
 
 For the bonus section, we had to import our SQL database into Pandas using SQLAlchemy and generate visualizations of the data.
 
-* The script is called `bonus-analysis.ipynb` and was coded using Pandas, Matplotlib, os, sqlalchemy, NumPy and SciPy libraries.
+* The script is called `bonus-analysis.ipynb` and was coded using Pandas, Matplotlib, os, decouple, sqlalchemy, NumPy and SciPy libraries.
 * The database url was created in an environment variable to protect the database password.
 * Only three relevant tables were read into Pandas dataframes using  `read_sql_table()`: salary, employees, and titles, after which these dataframes were used to plot data.
 
