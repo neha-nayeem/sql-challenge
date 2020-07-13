@@ -120,7 +120,7 @@ For the bonus section, we had to import our SQL database into Pandas using SQLAl
 
 * It appears that the data is positively skewed, indicating a non-normal distribution. 
 
-![salary-ranges.png](/EmployeeSQL/images/histogram.png)
+	![salary-ranges.png](/EmployeeSQL/images/histogram.png)
 
 #### Create a bar chart of average salary by title
 
@@ -128,10 +128,12 @@ For the bonus section, we had to import our SQL database into Pandas using SQLAl
 
 * Unnecessary columns were removed and a group by object was created on the title, with mean salaries.
 
+<p class="aligncenter">
+	<img src="/EmployeeSQL/images/avg_sal_df.png" alt="avg_sal_df"
+	title="Average Salary by Title" width="200" height="222" /> </p>
+
 * This dataframe was then used to plot a bar chart to show average salaries by title.
 
-<img src="/EmployeeSQL/images/avg_sal_df.png" alt="avg_sal_df"
-	title="Average Salary by Title" width="150" height="100" />
-![avg-sal-title.png](/EmployeeSQL/images/avg_sal_title.png)
+	![avg-sal-title.png](/EmployeeSQL/images/avg_sal_title.png)
 
 
