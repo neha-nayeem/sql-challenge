@@ -12,15 +12,15 @@ In this assignment, you will design the tables to hold data in the CSVs, import 
 
 All files are inside the folder named for the challenge `EmployeeSQL`. This folder contains:
 
-    * A `data` folder that contains the six CSV files.
+* A `data` folder that contains the six CSV files.
 
-    * An `images` folder that contains the Entity-Relationship Diagram, and visualizations from the bonus analysis.
+* An `images` folder that contains the Entity-Relationship Diagram, and visualizations from the bonus analysis.
 
-    * An `employee_db_schema.sql` file that contains the table schema for the six tables.
+* An `employee_db_schema.sql` file that contains the table schema for the six tables.
 
-    * An `employee_db_queries.sql` file that contains the eight queries created to answer the questions under *Data Analysis* below.
+* An `employee_db_queries.sql` file that contains the eight queries created to answer the questions under *Data Analysis* below.
 
-    * A Jupyter notebook called `bonus-analysis.ipynb` to further analyze the SQL database and create visualizations.
+* A Jupyter notebook called `bonus-analysis.ipynb` to further analyze the SQL database and create visualizations.
 
 ## Data Engineering
 
