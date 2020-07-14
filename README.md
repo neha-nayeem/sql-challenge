@@ -24,6 +24,8 @@ All files are inside the folder named for the challenge `EmployeeSQL`. This fold
 
 * A Jupyter notebook called `bonus-analysis.ipynb` to further analyze the SQL database and create visualizations.
 
+* 
+
 ## Data Engineering
 
 There were 6 CSV files which were inspected and the following ERD was created, specifying primary keys, foreign keys and composite keys where applicable:
@@ -115,7 +117,9 @@ ORDER BY "Frequency Count" DESC
 For the bonus section, we had to import our SQL database into Pandas using SQLAlchemy and generate visualizations of the data.
 
 * The script is called `bonus-analysis.ipynb` and was coded using Pandas, Matplotlib, os, decouple, sqlalchemy, NumPy and SciPy libraries.
-* The database url was created in an environment variable to protect the database password.
+
+* The database url was created in an environment variable using the [python-decouple](https://pypi.org/project/python-decouple/) library to protect the database password. Decouple simplifies the process of storing and retrieving parameters from the environment.
+
 * Only three relevant tables were read into Pandas dataframes using  `read_sql_table()`: salary, employees, and titles, after which these dataframes were used to plot data.
 
 #### Create a histogram to visualize the most common salary ranges for employees
