@@ -120,7 +120,7 @@ For the bonus section, we had to import our SQL database into Pandas using SQLAl
 
 #### Create a histogram to visualize the most common salary ranges for employees
 
-* It appears that the data is positively skewed, indicating a non-normal distribution. 
+* It appears that the data is positively skewed, indicating a non-normal distribution and a large variance and standard deviation.
 
 	![salary-ranges.png](/EmployeeSQL/images/histogram.png)
 
