@@ -10,6 +10,8 @@
 
 **2. Data Analysis**
 
+## Notes
+
 All files are inside the folder named for the challenge `EmployeeSQL`. This folder contains:
 
 * A `data` folder that contains the six CSV files.
