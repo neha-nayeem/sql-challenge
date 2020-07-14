@@ -122,6 +122,8 @@ For the bonus section, we had to import our SQL database into Pandas using SQLAl
 
 * It appears that the data is positively skewed, indicating a non-normal distribution and a large variance and standard deviation.
 
+* The most common salary seems to be between $40,000 and $50,000, with over 140,000 counts of employees with this salary.
+
 	![salary-ranges.png](/EmployeeSQL/images/histogram.png)
 
 #### Create a bar chart of average salary by title
