@@ -145,4 +145,7 @@ For the bonus section, we had to import our SQL database into Pandas using SQLAl
 
 	![avg-sal-title.png](/EmployeeSQL/images/avg_sal_title.png)
 
+* Looking at the bar chart, we can see that staff and senior staff have almost the same salary, which seems strange. This is also the case with assistant engineers, engineers and senior engineers.
+
+* Also, managers appear to receive less salary than staff, which is probably not likely.
 
